@@ -1,38 +1,36 @@
-# Barcode Detection Project (Digital Image Processing)
+# 📦 OpenCV Barcode Detection System
 
-This repository contains an implementation of a barcode detection system using Python and the OpenCV library. The project aims to provide a comprehensive solution for detecting and decoding barcodes in images or video streams.
+A computer vision-based barcode detection system built using **Python** and **OpenCV** that can accurately detect and decode multiple barcode formats from images.
 
-# Introduction
-Barcode detection is a fundamental component of various applications, including inventory management, retail, and logistics. This project offers a versatile and easy-to-use barcode detection system.
+This project demonstrates practical implementation of image processing techniques for real-world scanning applications such as retail billing systems, inventory management, and logistics tracking.
 
-**Features:**
-- Barcode detection: ...
-- Barcode decoding: ...
-- User-friendly interface: ...
+---
 
-## Screenshots
+## 🚀 Features
 
-<p align="center">
-  <img src="https://github.com/Adarsh6158/Barcode-detection/assets/119891550/499c905f-4dd5-4955-b63f-1948da759c4f" alt="Screenshot 1" width="400">
-  <br>
-  <em>An example of barcode detection in an image.</em>
-</p>
-<p align="center">
-  <img src="https://github.com/Adarsh6158/Barcode-detection/assets/119891550/288b8346-a353-41d6-8979-472aa69f5e7f" alt="Screenshot 2" width="400">
-  <br>
-  <em>Barcode decoding results displayed on the interface.</em>
-</p>
+✅ Detects multiple barcodes in a single image  
+✅ Supports common formats like **EAN-13** and **CODE128**  
+✅ Draws bounding boxes around detected barcodes  
+✅ Displays decoded barcode data in the terminal  
+✅ Fast and lightweight implementation  
 
-**How to Run:**
-- import necessaary modules like pyzbar,cv2
-- for Barcode detection=> python detect_barcode_opencv.py --image images/barcode2.jpeg
-- for Barcode data and format =>python barcode_detect_and_decode.py --image images/barcode2.jpg
+---
 
-## Support
+## 🛠️ Tech Stack
 
-For support, email adarsh6158@gmail.com.
+- **Python**
+- **OpenCV**
+- **Pyzbar**
+- **NumPy**
 
-## 🔗 Link\
+---
 
+## 📂 Project Structure
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adarsh-35a9931ba/)
+Barcode-detection/
+│
+├── imgs/ # Test images
+├── barcode_detect_and_decode.py
+├── detect_barcode_opencv.py
+├── requirements.txt
+└── README.md
